@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class ConexaoBD {
     private static ConexaoBD instancia;
     private Connection conexao;
-    private static final String URL = "jdbc:mysql://localhost:3306/javasqlbd2";
+    private static final String URL = "jdbc:mysql://localhost:3306/javasqlbd";
     private static final String USUARIO = "root";
-    private static final String SENHA = "123456";
+    private static final String SENHA = "12345";
 
     // Construtor privado para evitar instanciação externa
     private ConexaoBD() {
